@@ -1,0 +1,127 @@
+
+.topnav {
+background-color: rgb(255, 255, 255);
+
+
+}
+.topnav a {
+  float: left;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+}
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.topnav-right a {
+  float: right;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.topnav-right a:hover {
+  text-decoration: underline;
+}
+
+
+.bottomnav a {
+  float: left;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.bottomnav a:hover{
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color : white;
+  background-color: white;
+  text-align: center;
+
+}
+
+
+
+.main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  padding-left: 500px;
+  flex: 100%;
+  position: relative;
+  text-align: center;
+
+}
+.main .searchbox {
+  position: relative;
+  width: 500px;
+  flex: 100%;
+  margin-top: 20px; 
+  align-items: center; 
+  padding: 0;
+  
+
+}
+.main .searchbox .search{
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  padding-right: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.main .searchbox .icons {
+  position: absolute;
+  display: flex;
+  top: 0px;
+  width: 110%;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center; 
+  pointer-events: none;
+}
+
+.main .buttons {
+  margin-top: 20px;
+
+}
+.main .buttons button {
+   margin: 0 5px;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 4px;
+   border: 1px solid transparent;
+   outline: none;
+   color: #555;
+   
+}
+
+.main .buttons button:hover{
+  text-decoration: underline;
+  
+}
+
